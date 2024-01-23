@@ -58,8 +58,8 @@ function negativeCheck() {
         fungusElement.classList.remove("freaky-fungus.walk");
         fungusElement.classList.add('freaky-fungus', 'dead');
 
-    };
-    if (playerAP <= 0 && fungusHP > 0) {
+    }
+    else if (playerAP <= 0 && fungusHP > 0) {
         playerAP = 0;
         fungusElement.classList.remove("freaky-fungus.walk");
         fungusElement.classList.add('freaky-fungus', 'jump');
